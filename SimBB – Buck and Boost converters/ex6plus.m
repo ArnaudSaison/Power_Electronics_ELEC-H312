@@ -21,7 +21,7 @@ R_vect = sort([logspace(1.3,3.2,20) linspace(10,25,20)]); % vecteur contenant to
 R_vect = R_vect(2:end); % la résistance ne peut pas être nulle dans la simulation
 
 % paramètres pour le duty cycle
-D_vect = [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9];
+D_vect = [0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9]; % différentes valeur du Duty Cycle
 
 % temps
 t_init_mean = T_s * 50; % temps auquel on commence à calculer la moyenne
